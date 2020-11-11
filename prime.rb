@@ -4,9 +4,9 @@
 def prime?(num)
   2.upto(num) do |x|
       if num % x == 0
-        return false
-      else
         return true
+      else
+        return false
       end
     end
 end
