@@ -1,15 +1,14 @@
 # Add  code here!
 
+
 def prime?(num)
- x = 2
- testArray = []
-
- while x != num
-   testArray.push(x)
-   x += 1
- end
-
- return testArray
+  2.upto(Math.sqrt(num)) do |x| 
+      if num % x == 0
+        return false 
+      else
+        return true
+      end 
+    end
 end
 
 
