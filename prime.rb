@@ -2,12 +2,12 @@
 
 
 def prime?(num)
-  2.upto(Math.sqrt(num)) do |x| 
+  2.upto(Math.sqrt(num)) do |x|
       if num % x == 0
-        return false 
+        return false
       else
         return true
-      end 
+      end
     end
 end
 
